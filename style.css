@@ -21,11 +21,26 @@ body {
 
 }
 
-.module-border-wrap {
+.border {
 	padding: 1rem;
 	position: relative;
-	background: linear-gradient(#1b6cff, #c324ff);
 	padding: 3px;
+	background: #1b6cff;
+	animation: border 4s ease 0s infinite;
+}
+
+@keyframes border {
+	0% {
+		background: #c324ff;
+	}
+	
+	50% {
+		background: #1b6cff;
+	}
+	
+	100% {
+		background: #c324ff;
+	}
 }
 
 .module {
