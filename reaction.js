@@ -7,7 +7,10 @@ var inp = '<h2>Bot Commands List</h2><br><br><div id="search"><input onkeyup="Fi
 var com = '<div class="border"><div class="prefix">Prefix is nr!</div></div><ul id="ListCom"><li><a onClick="ban()">ban</a></li><li><a onclick="kick()">kick</a></li><li><a onClick="mute()">mute</a></li><li><a onClick="clearing()">clear</a></li><li><a onClick="vote()">vote</a></li><li><a onClick="warn()">warn</a></li><li><a onClick="autosetup()">autosetup</a></li><li><a onClick="CreateChannel()">createchannel</a></li><li><a onClick="help()">help</a></li><li><a onClick="pinging()">ping</a></li><li><a onClick="botinfo()">botinfo</a></li><li><a onClick="ServerInfo()">serverinfo</a></li><li><a onClick="captcha()">captcha</a></li><li><a onClick="verify()">verify</a></li><li><a onClick="work()">work</a></li><li><a onClick="balance()">balance</a></li><li><a onClick="buy()">buy</a></li><li><a onClick="promocode()">usepromocode</a></li><li><a onClick="earn()">earn</a></li></ul>'
 
 function About() {
-	elm.innerHTML=''
+	elm.innerHTML='<h1>About Bot</h1> <br> <p style="color:#FFF; width: 300px; margin: 0 auto;">A bot whoch is in progress with quite lot commands. Helpfull for new discord server which help to set up it. Custom bot moneys <b>Nurelars</b>. Official discord server for better contact with developer, promocode for more Nurelars every mounth. Invite bot to ur server.</p>'
+	abt.innerHTML=''
+	ust.innerHTML=''
+	dbdr2.innerHTML=''
 }
 
 function BotCom() {

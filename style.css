@@ -47,6 +47,13 @@ body {
 	text-align: center;
 }
 
+#Content h1 {
+	text-align: center;
+	background: -webkit-linear-gradient(#1b6cff, #c324ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 #Content h2{
 	text-align: center;
 	background: -webkit-linear-gradient(#1b6cff, #c324ff);
