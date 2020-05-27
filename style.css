@@ -1,84 +1,156 @@
 body {
-	background: #222;
-}
-
-.botcontent {
-	height: 100vh;
-	margin: 0;
-	display: grid;
-	place-items: center;
-	background: #222;
-	color: white;
-}
-
-.name {
-	font-size: 72px;
-	background: -webkit-linear-gradient(#1b6cff, #c324ff);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	margin-bottom: 0px;
-	margin-top: 20px;
-
-}
-
-.border {
-	padding: 1rem;
-	position: relative;
-	padding: 3px;
-	background: #1b6cff;
-	animation: border 4s ease 0s infinite;
-}
-
-@keyframes border {
-	0% {
-		background: #c324ff;
-	}
-	
-	50% {
-		background: #1b6cff;
-	}
-	
-	100% {
-		background: #c324ff;
-	}
-}
-
-.module {
-	background: #222;
-	color: white;
-	padding: 2rem;
-}
-
-img {
-	margin-top: 0px;
-}
-
-.other {
-	display: block;
+	background: #424242;
 	margin: 0;
 	padding: 0;
 }
 
-.other h3 {
-	margin: 10xp 0 0 10px;
-	color: white;
+.navbar {
+	color: #FFF;
+	margin: 0;
+	width: 100%;
+	min-width: 100%;
+	display: flex;
+	background: #222;
+	padding: 0;
+	box-shadow: 0 3px 3px 0;
 }
 
-.other a {
-	padding: 10px;
-	background: #222;
+.navbar a {
+	padding: 20px;
 	color: white;
 	text-decoration: none;
-	margin: 0;
-	transition: background 0.3s;
+	display: flex;
 }
 
-.other a:hover {
-	color: #222;
+.navbar a:hover { 
+	background: #000;
+}
+
+#previev, #img {
+	text-align: center;
+	background: -webkit-linear-gradient(#1b6cff, #c324ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+@media (max-width:800px) {
+	.navbar {
+		display: block;
+	}
+	
+	.navbar a {
+		display: block;
+	}
+}
+
+#Content {
+	text-align: center;
+}
+
+#Content h2{
+	text-align: center;
+	background: -webkit-linear-gradient(#1b6cff, #c324ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#search {
+	background: transpartament;
+	border-radius: 14px;
+	padding: 0;
+	margin: 0 auto;
+	width: 270px;
+	text-align: left;
+	display: flex;
+}
+
+#search input {
+	background: transparent;
+	text-align: left;
+	border: none;
+	width:0px;
 	background: white;
+	border-radius: 14px 0 0 14px;
+	padding: 0;
+	margin: 0;
+	padding: 12px 0px 12px 20px;
+	width:0px;
+	transition: all 0.3s ease;
+}
+
+#si:focus {
+	width: 200px;
+	padding: 12px 20px 12px 20px;
+	color: #111;
+}
+
+.sd {
+	background-color: #222;
+	border-radius:0 10px 10px 0;
+	height: 60px;
+	width:60px;
+	background-position: 5px 0 0 5px;
+}
+
+.sd:hover {
+	background-color: #111;
+}	
+
+.border {
+	background: linear-gradient(45deg, #1b6cff, #c324ff);
+	padding: 1px;
+	margin: 20px auto;
+	margin-bottom: 0;
+	width: 140px;
+}	
+
+.prefix {
+	color:#FFF;
+	padding: 20px;
+	text-align: center;
+	width: 100px;
+	margin-bottom: 0;
+	background: #424242;
+}
+
+#ListCom {
+	color: #FFF;	
+	text-decoration: none;
+	text-align: center;
+	margin: 50px auto;
+	list-style: none;
+}
+
+#ListCom li a{
+	padding: 20px;
+	color: #FFF;
+	background:#111;
+	text-decoration: none;
+	margin:  0 auto;
+	display: block;
+	width: 300px;
+	transition: all 0.3s;
+}
+
+#ListCom li a:hover {
+	background: #FFF;
+	color: #111;
+}
+
+#border, #border2 {
+	padding: 1px;
+	max-width: 300px;
+	margin: 10px auto; 	
+}
+
+#usetage, #about-command {
+	background: #424242;
+	padding: 20px;
+	margin:0;
+	color: #FFF;
 }
 
 ::selection {
-	color: #222;
-	background: #c024ff;
+	background: #1b6cff;
+	color: #c324ff;
 }
