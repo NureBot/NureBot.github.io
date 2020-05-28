@@ -138,7 +138,7 @@ function balance() {
 
 function buy() {
 	ust.innerHTML='Usetage: <br> nr!buy [item] or nr!buy list (to see all items which u can buy)'
-	abt.innerHTML='Buy items like: <ul><li>cafe(more earnings)</li><li><i>More will be added soon</i></li></ul>'
+	abt.innerHTML='U can  buy items like: <ul><li>cafe(more earnings)</li><li><i>More will be added soon</i></li></ul>'
 	bdr.style.background='linear-gradient(45deg, #1b6cff, #c324ff)'
 	bdr2.style.background='linear-gradient(45deg, #1b6cff, #c324ff)'
 }
